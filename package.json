@@ -32,7 +32,9 @@
         "@rollup/plugin-node-resolve": "^8.4.0",
         "rollup": "^2.23.1",
         "rollup-plugin-typescript2": "^0.27.2",
-        "typescript": "^3.9.7",
+        "typescript": "^3.9.7"
+    },
+    "dependencies": {
         "userjs-util": "https://github.com/friendlyanon/userjs-util/releases/download/v1.0.0/userjs-util-1.0.0.tgz"
     }
 }

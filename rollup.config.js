@@ -12,4 +12,7 @@ export default {
     typescript(),
     nodeResolve(),
   ],
+  external: ["dependencies", "peerDependencies"].flatMap(
+    key => Object.keys(pkg[key] ?? {}),
+  ),
 };
